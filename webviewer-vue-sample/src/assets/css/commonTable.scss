@@ -1,0 +1,28 @@
+.model-container .el-card:nth-child(2) {
+    margin-top:20px;
+}
+.searchHeader{
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+    >span{
+        line-height: 40px;
+    }
+    .el-button{
+        padding: 9px 20px;
+    }
+}
+.input-name{
+    line-height: 40px;
+}
+.marginRight{
+    margin-right: 7px;
+}
+.textLeft{
+    text-align: left;
+}
+.model-container{
+    .el-card__header:nth-child(1){
+        padding: 18px 20px;
+    }
+}
